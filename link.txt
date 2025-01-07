@@ -1,0 +1,29 @@
+
+API KEY = df8ac10f9cbf80098f57e89fc7362c6e
+
+SEARCH = curl --request GET \
+     --url 'https://api.themoviedb.org/3/search/movie?query=avator&include_adult=false&language=en-US&page=1' \
+     --header 'Authorization: Bearer df8ac10f9cbf80098f57e89fc7362c6e' \
+     --header 'accept: application/json'
+
+
+
+Base URL: https://api.themoviedb.org/3
+
+Individual:
+https://api.themoviedb.org/3/movie/{movie_id}?api_key=df8ac10f9cbf80098f57e89fc7362c6e
+
+Now Playing:
+https://api.themoviedb.org/3/movie/now_playing?api_key=df8ac10f9cbf80098f57e89fc7362c6e
+
+Popular:
+https://api.themoviedb.org/3/movie/popular?api_key=df8ac10f9cbf80098f57e89fc7362c6e
+
+Top Rated:
+https://api.themoviedb.org/3/movie/top_rated?api_key=df8ac10f9cbf80098f57e89fc7362c6e
+
+Upcoming: 
+https://api.themoviedb.org/3/movie/upcoming?api_key=df8ac10f9cbf80098f57e89fc7362c6e
+
+Search:
+https://api.themoviedb.org/3/search/movie?api_key=df8ac10f9cbf80098f57e89fc7362c6e&query={movie_name}
