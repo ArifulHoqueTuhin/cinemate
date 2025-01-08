@@ -2,6 +2,7 @@ import { Link } from "react-router-dom"
 import { Card } from "../component/card"
 import { useEffect,useState } from "react";
 import { useFetch } from "../hook/useFetch";
+import Logo from "../assets/logo.png"
 
 export const MovieList =({apiPath,title})=> {
   
@@ -10,7 +11,7 @@ const {data: movies} = useFetch(apiPath)
 
 
   useEffect(()=>{
-    document.title = `${title} /Cinemate`
+    document.title = `${Logo}${title} /Cinemate`
   
   })
 
